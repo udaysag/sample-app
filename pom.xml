@@ -1,4 +1,4 @@
-<roject xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.mpcechno</groupId>
@@ -32,13 +32,13 @@
 		 <snapshotRepository>
 		    <id>nexus</id>
 		    <name>Internal Snapshot Releases</name>	 
-		    <url>http://3.16.215.18:8081/repository/maven-snapshots/</url>
+		    <url>http://3.17.203.252:8081/repository/sample-appsnapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
 		    <name>Internal Releases</name>
-		    <url>http://3.16.215.18:8081/repository/maven-releases/</url>
+		    <url>http://3.17.203.252:8081/repository/sample-apprelease/</url>
 		</repository>
   	</distributionManagement>
 	
